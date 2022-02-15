@@ -1,0 +1,24 @@
+body{
+    font-family: fantasy ;
+    font-size: large;
+}
+p{
+    width: 30vw;
+    height: auto;
+}
+
+#jp{
+position:absolute;
+border: 1px solid #ddd;
+border-radius: 4px;
+padding: 5px;
+
+border-radius: 8px;
+margin-right: 25vh;
+}
+
+#intro{
+    width: auto;
+    height: auto;
+}
+
