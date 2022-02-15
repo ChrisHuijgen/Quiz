@@ -2,23 +2,38 @@ body{
     font-family: fantasy ;
     font-size: large;
 }
-p{
-    width: 30vw;
-    height: auto;
+
+
+.intro {
+    display: grid;
+    grid-template-columns: auto 35% auto;
+    background-color: white;
+    padding: 10px;
+  }
+  
+  #infotekst, .Infofoto {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  #Infotekst{
+      width: 20vw;
+  }
+
+  #jp{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 75vh;
+  }
+
+
+
+
+#consoles{
+    width: 50vh;
+    height: 50vh;
 }
-
-#jp{
-position:absolute;
-border: 1px solid #ddd;
-border-radius: 4px;
-padding: 5px;
-
-border-radius: 8px;
-margin-right: 25vh;
-}
-
-#intro{
-    width: auto;
-    height: auto;
-}
-
