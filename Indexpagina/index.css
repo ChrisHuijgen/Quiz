@@ -37,3 +37,53 @@ body{
     width: 50vh;
     height: 50vh;
 }
+
+#quizzen{
+ 
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: white;
+ 
+  }
+
+#consoleQuiz{
+  width: 40%;
+  height: auto;
+  /*border: solid black 3px;*/
+  margin-top: 5%;
+  margin-left: 25%;
+  text-align: center;
+}
+
+#gameQuiz{
+  width: 40%;
+  height: auto;
+  /*border: solid black 3px;*/
+  margin-left: 25%;
+  margin-top: 5%;
+  text-align: center;
+}
+
+button{
+  width: fit-content;
+  height: 10%;
+  background-color: black;
+  color: white;
+  margin-bottom: 20%;
+  
+}
+
+a{
+  text-decoration: none;
+  font-family: fantasy;
+  color: white;
+}
+
+footer{
+  position:absolute;
+background-color: black;
+margin-left: -0.7%;
+width: 100%;
+height: fit-content;
+
+}
