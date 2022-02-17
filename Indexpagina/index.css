@@ -3,6 +3,94 @@ body{
     font-size: large;
 }
 
+#header{
+  border: black solid 1px;
+  width: 101vw;
+  height: 12.5vh;
+  margin-left: -1vw;
+  text-align: center;
+  background-color: white;
+  
+}
+
+#link1{
+  margin-top: 0;
+  text-decoration: none;
+  color: black;
+  margin-left: 5vw;
+  margin-top: 0;
+  font-size: x-large;
+  font-variant: fantasy;
+  line-height: 7vh;
+}
+
+#quiz1{
+  position: relative;
+  display: inline-block;
+  margin-top: 0;
+  text-decoration: none;
+  color: black;
+  margin-left: 5vw;
+  margin-top: 0;
+  font-size: x-large;
+  font-variant: fantasy;
+  line-height: 5.5vh;
+}
+
+#quiz1:hover{
+  color: red;
+}
+#vdrop{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+#quiz1:hover #vdrop{
+  display: block;
+}
+
+#foto {
+  margin-left: -5.0vw;
+}
+#quiz2{
+  position: absolute;
+  margin-top: 0;
+  text-decoration: none;
+  color: black;
+  margin-left: 5vw;
+  margin-top: -10;
+  font-size: x-large;
+  font-variant: fantasy;
+  display: inline-block;
+  line-height: 6.7vh;
+}
+
+
+#adrop{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+#quiz2:hover #adrop{
+  display: block;
+}
+
+#foto1 {
+  margin-left: -5.0vw;
+}
+#gamelog{
+  position: absolute;
+  width: 67px;
+  margin-left: -18vw;
+}
 
 .intro {
     display: grid;
@@ -29,9 +117,6 @@ body{
     padding: 5px;
     width: 75vh;
   }
-
-
-
 
 #consoles{
     width: 50vh;
@@ -67,13 +152,14 @@ body{
 button{
   width: fit-content;
   height: 10%;
+  text-align: center;
   background-color: black;
   color: white;
   margin-bottom: 20%;
   
 }
 
-a{
+#link{
   text-decoration: none;
   font-family: fantasy;
   color: white;
