@@ -6,7 +6,7 @@ body{
 #header{
   border: black solid 1px;
   width: 101vw;
-  height: 12.5vh;
+  height: 8.5vh;
   margin-left: -1vw;
   text-align: center;
   background-color: white;
@@ -54,7 +54,7 @@ body{
 }
 
 #foto {
-  margin-left: -5.0vw;
+  margin-left: 0vw;
 }
 #quiz2{
   position: absolute;
@@ -66,7 +66,7 @@ body{
   font-size: x-large;
   font-variant: fantasy;
   display: inline-block;
-  line-height: 6.7vh;
+  line-height: 7vh;
 }
 
 
@@ -84,7 +84,7 @@ body{
 }
 
 #foto1 {
-  margin-left: -5.0vw;
+  margin-left: 0vw;
 }
 #gamelog{
   position: absolute;
@@ -120,7 +120,12 @@ body{
 
 #consoles{
     width: 50vh;
-    height: 50vh;
+    margin-left: -2vw;
+}
+
+#gamef{
+  width: 60vh;
+  margin-left: -4vw;
 }
 
 #quizzen{
