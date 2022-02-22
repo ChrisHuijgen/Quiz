@@ -1,7 +1,7 @@
 #header{
     border: black solid 1px;
     width: 101vw;
-    height: 8vh;
+    height: 9vh;
     margin-left: -1vw;
     text-align: center;
     background-color: white;
@@ -87,4 +87,61 @@ a{
     margin-left: -18vw;
 }
 
+.keuze{
+    margin: auto;
+    width: 20vw;
+    height: 15vh;
+    margin-bottom: 1vh;
+}
+
+
+#vraag1img{
+    margin-left: 33vw;
+    margin-top: 7vh;
+    margin-bottom: 4vh;
+    width: 600px;
+}
+
+#vraag1{
+    margin-left: 28vw;
+}
+#vraagEenf{
+    display: block;
+}
+
+#vraag2f{
+    display: none;
+}
+
+#vraag3f{
+    display: none;
+}
+
+#vraag4f{
+    display: none;
+}
+
+#vraag5f{
+    display: none;
+}
+
+#vraag6f{
+    display: none;
+}
+
+#vraag7f{
+    display: none;
+}
+
+#vraag8f{
+    display: none;
+}
+
+#vraag9f{
+    display: none;
+}
+
+#vraag10f{
+    display: none;
+}
 
