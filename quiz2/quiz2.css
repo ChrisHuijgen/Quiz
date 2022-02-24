@@ -113,8 +113,13 @@ body{
     padding: 0;
     margin: 0;    
     width:100vw;
-    height: 100vh;    
+    height: 100vh;  
 }
+    
+#score{
+     float: right;
+    }
+
 
 #uitleg{
     display: block;
@@ -140,5 +145,24 @@ body{
     display: none;
 }
 
+#vraag6{
+    display: none;
+}
+
+#vraag7{
+    display: none;
+}
+
+#vraag8{
+    display: none;
+}
+
+#vraag9{
+    display: none;
+}
+
+#vraag10{
+    display: none;
+}
 
 
