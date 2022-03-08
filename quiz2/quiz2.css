@@ -95,8 +95,8 @@ a{
 
 
 button{
-    width: fit-content;
-    height: 5vh;
+    width: 25vw;
+    height: 15vh;
     text-align: center;
     background-color: black;
     color: white;
