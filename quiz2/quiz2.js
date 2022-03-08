@@ -1,4 +1,4 @@
-function punten(){}
+let punten = 0
 
 function volgende0() {
 document.getElementById("uitleg").style.display = "none";
@@ -54,3 +54,11 @@ document.getElementById("vraag7").style.display = "block";
  document.getElementById("vraag10").style.display = "none";
 document.getElementById("resultaat").style.display = "block";
 }
+
+
+if(vraag1 = 'c'){
+punten =+ 10;
+}
+
+
+ 
