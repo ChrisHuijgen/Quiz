@@ -55,6 +55,7 @@ document.getElementById("vraag7").style.display = "block";
 document.getElementById("resultaat").style.display = "block";
 }
 
+
 let punten = 0
 
 if(vraag1 == 'c'){
