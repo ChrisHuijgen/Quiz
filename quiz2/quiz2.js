@@ -59,42 +59,56 @@ let punten = 0
 
 if(vraag1 == 'c'){
   punten = punten + 10;
+  console.log(punten)
 }
 if(vraag2 == 'b'){
   punten = punten + 10;
+  console.log(punten)
 }
 if(vraag3 == 'a'){
   punten = punten + 10;
+  console.log(punten)
 }
 if(vraag4 == 'c'){
   punten = punten + 10;
+  console.log(punten)
 }
 if(vraag5 == 'b'){
   punten = punten + 10;
+  console.log(punten)
 }
 if(vraag6 == 'a'){
   punten = punten + 10;
+  console.log(punten)
 }
 if(vraag7 == 'a'){
   punten = punten + 10;
+  console.log(punten)
 }
 if(vraag8 == 'a'){
   punten = punten + 10;
+  console.log(punten)
 }
 if(vraag9 == 'c'){
   punten = punten + 10;
+  console.log(punten)
 }
 if(vraag10 == 'b'){
   punten = punten + 10;
+  console.log(punten)
 }
 
 function resultaat(){
   if (punten <= 50){
   document.write("Gefeliciteerd je hebt de quiz afgemaakt!")
+  var imghoog = new Image(400, 300);
+  imghoog.src = 'foto/dkhoog.jpg';
   document.write("Je hebt " + punten + "gehaald")
   }
   if (punten > 60){
     document.write("Gefeliciteerd je hebt de quiz afgemaakt!")
+    var imglaag = new Image(400, 300);
+    imglaag.src = 'foto/dklaag.jpg';
     document.write("Je hebt " + punten + "gehaald")
   }
 }
