@@ -56,49 +56,49 @@ document.getElementById("resultaat").style.display = "block";
 }
 
 
-let punten = 0
-
+var punten = 0
+function resultaat(){
 if(vraag1 == 'c'){
- let punten = punten + 10;
-  console.log(punten)
+ var punten = punten + 10;
+  console.log("punten")
 }
 if(vraag2 == 'b'){
- let punten = punten + 10;
+ var punten = punten + 10;
   console.log(punten)
 }
 if(vraag3 == 'a'){
-  let punten = punten + 10;
+  var punten = punten + 10;
   console.log(punten)
 }
 if(vraag4 == 'c'){
- let punten = punten + 10;
+ var punten = punten + 10;
   console.log(punten)
 }
 if(vraag5 == 'b'){
- let punten = punten + 10;
+ var punten = punten + 10;
   console.log(punten)
 }
 if(vraag6 == 'a'){
-  let punten = punten + 10;
+  var punten = punten + 10;
   console.log(punten)
 }
 if(vraag7 == 'a'){
-  let punten = punten + 10;
+  var punten = punten + 10;
   console.log(punten)
 }
 if(vraag8 == 'a'){
-  let punten = punten + 10;
+  var punten = punten + 10;
   console.log(punten)
 }
 if(vraag9 == 'c'){
- let punten = punten + 10;
+ var punten = punten + 10;
   console.log(punten)
 }
 if(vraag10 == 'b'){
- let punten = punten + 10;
+ var punten = punten + 10;
   console.log(punten)
 }
-
+}
 function resultaat(){
   if (punten <= 50){
   document.write("Gefeliciteerd je hebt de quiz afgemaakt!")
