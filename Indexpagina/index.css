@@ -182,3 +182,8 @@ width: 100%;
 height: fit-content;
 
 }
+
+a{
+  text-decoration: none;
+  color: blue;
+}
