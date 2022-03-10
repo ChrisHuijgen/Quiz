@@ -57,7 +57,7 @@ document.getElementById("resultaat").style.display = "block";
 
 
 var punten = 0
-function resultaat(){
+
 if(vraag1 == 'c'){
  var punten = punten + 10;
   console.log("punten")
@@ -98,15 +98,16 @@ if(vraag10 == 'b'){
  var punten = punten + 10;
   console.log(punten)
 }
-}
+
 function resultaat(){
+  
   if (punten <= 50){
   document.write("Gefeliciteerd je hebt de quiz afgemaakt!")
   var imghoog = new Image(400, 300);
   imghoog.src = 'foto/dkhoog.jpg';
   document.write("Je hebt " + punten + "gehaald")
   }
-  if (punten > 60){
+  if (punten >= 60){
     document.write("Gefeliciteerd je hebt de quiz afgemaakt!")
     var imglaag = new Image(400, 300);
     imglaag.src = 'foto/dklaag.jpg';
