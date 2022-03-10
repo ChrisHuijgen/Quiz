@@ -59,43 +59,43 @@ document.getElementById("resultaat").style.display = "block";
 let punten = 0
 
 if(vraag1 == 'c'){
-  punten = punten + 10;
+ let punten = punten + 10;
   console.log(punten)
 }
 if(vraag2 == 'b'){
-  punten = punten + 10;
+ let punten = punten + 10;
   console.log(punten)
 }
 if(vraag3 == 'a'){
-  punten = punten + 10;
+  let punten = punten + 10;
   console.log(punten)
 }
 if(vraag4 == 'c'){
-  punten = punten + 10;
+ let punten = punten + 10;
   console.log(punten)
 }
 if(vraag5 == 'b'){
-  punten = punten + 10;
+ let punten = punten + 10;
   console.log(punten)
 }
 if(vraag6 == 'a'){
-  punten = punten + 10;
+  let punten = punten + 10;
   console.log(punten)
 }
 if(vraag7 == 'a'){
-  punten = punten + 10;
+  let punten = punten + 10;
   console.log(punten)
 }
 if(vraag8 == 'a'){
-  punten = punten + 10;
+  let punten = punten + 10;
   console.log(punten)
 }
 if(vraag9 == 'c'){
-  punten = punten + 10;
+ let punten = punten + 10;
   console.log(punten)
 }
 if(vraag10 == 'b'){
-  punten = punten + 10;
+ let punten = punten + 10;
   console.log(punten)
 }
 
