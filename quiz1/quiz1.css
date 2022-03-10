@@ -87,4 +87,106 @@ a{
     margin-left: -18vw;
 }
 
+#vraag1f{
+    display: none;
+}
 
+#vraag2f{
+    display: none;
+}
+
+#vraag3f{
+    display: none;
+}
+
+#vraag4f{
+    display: none;
+}
+
+#vraag5f{
+    display: none;
+}
+
+#vraag6f{
+    display: none;
+}
+
+#vraag7f{
+    display: none;
+}
+
+#vraag8f{
+    display: none;
+}
+
+#vraag9f{
+    display: none;
+}
+
+#vraag10f{
+    display: none;
+}
+
+#resultaatf{
+    display: none;
+}
+button{
+    width: 15vw;
+    height: 15vh;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-bottom: 20%;
+    margin: auto;
+}
+
+#vraag1img{
+    margin-left: 30vw;
+    margin-top: 4vh;
+}
+#vraag11{
+    margin-left: 22vw;
+}
+#vraag22{
+    margin-left: 22vw;
+}
+#vraag33{
+    margin-left: 22vw;
+}
+#vraag44{
+    margin-left: 28vw;
+}
+#vraag55{
+    margin-left: 22vw;
+}
+#vraag66{
+    margin-left: 22vw;
+}
+#vraag77{
+    margin-left: 22vw;
+}
+#vraag88{
+    margin-left: 22vw;
+}
+
+#vraag99{
+    margin-left: 22vw;
+}
+
+#vraag1010{
+    margin-left: 22vw;
+}
+
+h3{
+    margin-left: 38vw;
+}
+#vraag2img{
+    margin-left: 38vw;
+}
+#vraag4img{
+    margin-left: 40vw;
+    margin-top: 5vh;
+}
+#vraag10img{
+   margin-left: 38vw;
+}
