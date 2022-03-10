@@ -100,7 +100,7 @@ if(vraag10 == 'b'){
 }
 
 function resultaat(){
-  
+  var punten = 60
   if (punten <= 50){
   document.write("Gefeliciteerd je hebt de quiz afgemaakt!")
   var imghoog = new Image(400, 300);
