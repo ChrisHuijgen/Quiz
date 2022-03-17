@@ -127,12 +127,12 @@ function vraag10(antwoord) {
     punten = punten + 10;
     console.log(punten)
     document.getElementById("vraag10").style.display = "none";
-    document.getElementById("punten").innerHTML = "Je heeft " + punten + "/100 gehaald!"
+    document.getElementById("punten").innerHTML = "Je hebt " + punten + "/100 punten gehaald!"
     document.getElementById("resultaat").style.display = "block";
   }
   else if (antwoord == "a" || antwoord == "c") {
     document.getElementById("vraag10").style.display = "none";
-    document.getElementById("punten").innerHTML = "Je heeft " + punten + "/100 gehaald!"
+    document.getElementById("punten").innerHTML = "Je hebt " + punten + "/100 punten gehaald!"
     document.getElementById("resultaat").style.display = "block";
 
   }
