@@ -127,7 +127,7 @@ a{
     display: none;
 }
 
-#resultaatf{
+#vraageind{
     display: none;
 }
 button{
@@ -189,4 +189,11 @@ h3{
 }
 #vraag10img{
    margin-left: 38vw;
+}
+#chadimg{
+    margin-left: 33vw;
+    margin-top: 4vh;
+}
+#punten{
+    margin-left: 40vw;
 }
